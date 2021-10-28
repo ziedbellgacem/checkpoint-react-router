@@ -1,0 +1,78 @@
+.car{
+    margin:15px  18%;   
+}
+
+.car:hover{
+    box-shadow:5px 10px 12px 5px black;
+}
+
+.car img{
+    width: auto;
+    height: 500px;
+}
+.fil{
+    display: flex;
+    justify-content: center;
+}
+.fil input{
+  margin-right: 10px;  
+  border:none;
+  border-radius: 20px;
+  width: 30%;
+ 
+}
+.fil button{
+   
+  margin-right: 10px; 
+}
+
+.list{
+ 
+  display: flex;
+ flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 25px 50px 75px 100px;
+  border:none;
+  
+  
+ 
+ 
+  
+}
+.card{
+  width: 200px;
+  height: 350px;
+  margin-bottom: 70px;
+  border-radius: 10px;
+  transition: transform .2s;
+  position: relative;
+  
+}
+
+
+.card:hover{
+  transform: scale(1.2);
+ 
+}
+.card img{
+  width: auto;
+  height: 100%;
+  text-decoration: none;
+}
+
+
+.container h5{
+  color:white;
+  text-decoration: none;
+  
+}
+
+
+.des{
+  margin-top: 50px;
+}
+
+.des p{
+  color:blanchedalmond;
+  margin:50px 30%;
+}
